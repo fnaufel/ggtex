@@ -12,7 +12,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 This is a tiny Python 3 script to translate from modified LaTeX math
 mode to Geogebra code for text objects.
 
-# Instalation
+# Installation
 
 Simply download the file `ggtex.py` and, if necessary, make it
 executable.
