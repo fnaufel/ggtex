@@ -42,9 +42,9 @@ which can be installed with
 ## Syntax
 
 The file you pass to `ggtex` contains LaTeX math code with one extra
-feature: you can *embed Geogebra commands that generate text* — values
-and definitions of Geogebra objects, fractions, formulae etc. — using
-the `@` delimiter.
+feature: you can *embed Geogebra commands that generate text* — e.g.,
+values and definitions of Geogebra objects, fractions, formulae etc. —
+using the `@` delimiter.
 
 For example, if you pass `ggtex` a file `example.tex` containing
 
@@ -70,3 +70,18 @@ object containing:
 ![](example.png)
 
 ## Useful Geogebra functions
+
+The [Geogebra text command
+reference](https://wiki.geogebra.org/en/Text_Commands) lists some pretty
+powerful functions to produce text objects such as
+
+-   Continued fractions
+
+-   Fraction representations/approximations of real numbers: try
+    `FractionText(pi)`
+
+-   Numbers in scientific notation
+
+-   Surd representations: try `SurdText(2.439230484541326)`
+
+-   and more
