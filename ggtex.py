@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 """
 Converts modified LaTeX math-mode code to Geogebra code.
 See http://github.com/fnaufel/ggtex for syntax and more info.
