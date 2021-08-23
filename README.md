@@ -39,7 +39,7 @@ which can be installed with
       -h, --help          Show this screen.
       -v, --version       Show version.
 
-## Syntax
+# Syntax
 
 The file you pass to `ggtex` contains LaTeX math code with one extra
 feature: you can *embed Geogebra commands that generate text* — e.g.,
@@ -54,8 +54,7 @@ For example, if you pass `ggtex` a file `example.tex` containing
 \]
 ```
 
-where `a` is a number defined in your Geogebra session with value, say,
-10, then `ggtex` will output a file `example.tex.ggtex` with contents
+then `ggtex` will output a file `example.tex.ggtex` with contents
 
 ``` python
 FormulaText(Simplify(
@@ -63,12 +62,22 @@ a + " x^2 + " + FractionText(2.5) + " x = 0"
 ))
 ```
 
-This code, when entered in the Geogebra input bar, will produce a text
-object containing:
+If `a` is a number defined in your Geogebra session with value, say, 10,
+then this code, when entered in the Geogebra input bar, will produce a
+text object containing:
 
 ![](example.png)
 
-## Useful Geogebra functions
+## Note
+
+The file passed to `ggtex` must contain a *LaTeX math snippet*,
+optionally surrounded by display math markers `\[` and `\]`, *not a
+complete LaTeX document*.
+
+*Everything in the snippet* will be interpreted by Geogebra in math
+mode. If you want to display text along with the math, use `\text{}`.
+
+# Useful Geogebra functions
 
 The [Geogebra text command
 reference](https://wiki.geogebra.org/en/Text_Commands) lists some pretty
