@@ -55,8 +55,7 @@ For example, if you pass `ggtex` a file `example.tex` containing
 ```
 
 where `a` is a number defined in your Geogebra session with value, say,
-![10](https://latex.codecogs.com/png.latex?10 "10"), then `ggtex` will
-output a file `example.tex.ggtex` with contents
+10, then `ggtex` will output a file `example.tex.ggtex` with contents
 
 ``` python
 FormulaText(Simplify(
