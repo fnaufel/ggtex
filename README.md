@@ -64,8 +64,8 @@ in the Geogebra input bar, will produce a text object containing
     3](https://www.python.org/downloads/) installed.
 
 2.  Download the file
-    [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex/ggtex.py) and
-    save it somewhere, preferably in `~/bin`.
+    [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex@latest/ggtex.py)
+    and save it somewhere, preferably in `~/bin`.
 
 3.  Make it executable (if necessary, replace `~/bin` with the directory
     where you saved the file):
@@ -84,8 +84,8 @@ in the Geogebra input bar, will produce a text object containing
     3](https://www.python.org/downloads/) installed.
 
 2.  Download the file
-    [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex/ggtex.py) and
-    save it somewhere.
+    [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex@latest/ggtex.py)
+    and save it somewhere.
 
 3.  You need to have the [docopt
     module](https://github.com/docopt/docopt), which can be installed

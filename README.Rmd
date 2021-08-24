@@ -54,7 +54,7 @@ If `a` is a number defined in your Geogebra session with value, say, 10, and `b`
 
 1. You need to have some version of [Python 3](https://www.python.org/downloads/) installed.
 
-1. Download the file [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex/ggtex.py) and save it somewhere, preferably in `~/bin`.
+1. Download the file [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex@latest/ggtex.py) and save it somewhere, preferably in `~/bin`.
 
 1. Make it executable (if necessary, replace `~/bin` with the directory where you saved the file):
 
@@ -72,7 +72,7 @@ If `a` is a number defined in your Geogebra session with value, say, 10, and `b`
 
 1. You need to have some version of [Python 3](https://www.python.org/downloads/) installed.
 
-1. Download the file [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex/ggtex.py) and save it somewhere.
+1. Download the file [`ggtex.py`](https://cdn.jsdelivr.net/gh/fnaufel/ggtex@latest/ggtex.py) and save it somewhere.
 
 1. You need to have the [docopt module](https://github.com/docopt/docopt), which can be installed with 
 
