@@ -211,8 +211,8 @@ in the Geogebra input bar, will produce a text object containing
       \\
       \begin{aligned}
         @a@ x^2 + @b@ x
-        &= @a@ \left( x^2 + @FractionText(b/a)@ \right) \\
-        &= @a@ \left( x^2 + @FractionText(b/a)@ +
+        &= @a@ \left( x^2 + @FractionText(b/a)@ x \right) \\
+        &= @a@ \left( x^2 + @FractionText(b/a)@ x +
           @FractionText(b^2/(4*a^2))@ -  @FractionText(b^2/(4*a^2))@ \right) \\
         &= @a@ \left( x + @FractionText(b/(2a))@ \right)^2 
           - @FractionText(b^2/(4a))@
