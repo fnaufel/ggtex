@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -23,7 +23,7 @@ from docopt import docopt
 import sys
 import re
 
-versionStr = 'ggtex v0.1\thttp://github.com/fnaufel/ggtex'
+versionStr = 'ggtex v0.2\thttp://github.com/fnaufel/ggtex'
 
 
 def ler(fonte):
@@ -80,6 +80,12 @@ def escrever(traducao, fonte):
         sys.exit(1)
 
 
+def ggtex(fonte):
+    conteudo = ler(fonte)
+    traducao = processar(conteudo)
+    escrever(traducao, fonte)
+
+
 if __name__ == '__main__':
     arguments = docopt(
         __doc__,
@@ -87,6 +93,4 @@ if __name__ == '__main__':
     )
 
     fonte = arguments['FILE']
-    conteudo = ler(fonte)
-    traducao = processar(conteudo)
-    escrever(traducao, fonte)
+    ggtex(fonte)
